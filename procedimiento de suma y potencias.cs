@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp9
+namespace consola20
 {
     internal class Program
     { //PROCEDIMIENTO SUMAR E IMPRIMIR 
