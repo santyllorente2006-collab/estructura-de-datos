@@ -11,15 +11,15 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
             int[] codigos = new int[20];
-
-            Console.WriteLine("ingrese el codigo : ");
-            int busqueda = Convert.ToInt32(Console.ReadLine());
-
             for (int i = 0; i < codigos.Length; i++)
             {
                 Console.WriteLine($"ingrese el codigo {i + 1}: ");
                 codigos[i] = (int)Convert.ToDouble(Console.ReadLine());
             }
+            Console.WriteLine("ingrese el codigo : ");
+            int busqueda = Convert.ToInt32(Console.ReadLine());
+
+
             int indiceEcondrado = 1;
             for (int i = 0; i < codigos.Length; i++)
             {
@@ -39,7 +39,7 @@ namespace ConsoleApp6
             }
             else
             {
-                Console.WriteLine("\n Error: El codigo ingresado mo existe en la BDD.");
+                Console.WriteLine("\nError: El codigo ingresado mo existe en la BDD.");
             }
         }
     }
